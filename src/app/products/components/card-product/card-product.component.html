@@ -1,0 +1,7 @@
+<div class="card card-fixed radius-card" *ngIf="product">
+    <div class="card-body card-content-align">
+        <img *ngIf="product.image" src="{{ product.image }}" class="card-img-top img-heigth" alt="product-image">
+        <h5 class="card-title text-style">{{ product.title }}</h5>
+        <h6 *ngIf="product.price" class="card-subtitle mb-2">{{ product.price | currency }}</h6>
+    </div>
+</div>

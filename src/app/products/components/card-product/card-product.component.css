@@ -1,0 +1,22 @@
+.img-heigth {
+    max-width: 45%;
+}
+
+.card-content-align {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 10px;
+}
+
+.card-fixed {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text-style {
+    font-size: medium;
+    text-align: justify;
+    margin: 1rem;
+}

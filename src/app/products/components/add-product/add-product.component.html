@@ -1,0 +1,12 @@
+<div class="card radius-card">
+    <div class=" card-body card-grid">
+        <h5 class="card-title">Product List</h5>
+        <form class="form-width" [formGroup]="addForm">
+            <input formControlName="title" type="text" class="form-control input-radius" id="add"
+                placeholder="new Product">
+        </form>
+        <button type="button" class="btn btn-warning button-add" (click)="addNew()" [disabled]="!addForm.valid">
+            Add Product
+        </button>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+.input-radius {
+    border-radius: 20px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+    justify-items: center;
+}
+
+.form-width {
+    width: 50%;
+}
+
+.button-add {
+    width: 50%;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bolder;
+}
